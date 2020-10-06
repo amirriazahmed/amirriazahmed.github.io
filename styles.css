@@ -110,9 +110,10 @@ body, html {
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  font-size: 17px;
+  font-size: 1.5vw;
   width: 20%;
   height: 10%;
+  max-height: 10%;
   
 }
 

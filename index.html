@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Resume - Amir Riaz Ahmed</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="titleBlock" role="banner">
+<head>
+	<title>Resume - Amir Riaz Ahmed</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class="titleBlock" role="banner">
             <div style="float:right;">
                 <div>Calgary</div>
                 <div>AB, Canada T3A</div>
             </div>
-            <h1>Amir Riaz Ahmed</h1>
-        </div>
-        <div class="pageIndent">
-            <br><br><br><br>
-            <div style="float:right;"><h2>Projects</h2></div>
+    <h1>Amir Riaz Ahmed</h1>
+    </div>
+
+    <div class="pageIndent">
+    	<br><br><br><br>
+    	<div style="float:right;">
+    	<h2>Projects</h2>
+		</div>
             <div id="mySidenav" class="sidenav">
                 <a href="project1.html" id="Project1">Project 1</a>
                 <a href="project2.html" id="Project2">Project 2</a>
@@ -24,107 +28,106 @@
                 <a href="project4.html" id="Project4">Project 4</a>
             </div>
 
-            <div onclick="alert('Mr. Cool')" style="text-align:left;">
-                <br><br><br><br><br>
-                <img SRC="pic.jpg" BORDER="0" height="100" class="rounded-corners" >
-            </div>
+    </div>        
+
+    <div onclick="alert('Mr. Cool')" style="text-align:left;">
+    <br><br><br><br><br>
+    <img SRC="pic.jpg" BORDER="0" height="100" class="rounded-corners" >
+    </div>
+
+    <p>
+    <h2>&nbsp;Summary</h2>
+    <br>
+    &nbsp; Experienced Oil and Gas Professional Venturing into the World of Programming and I am liking it!<br>
+    </p>
+    <br><br>
+
+    <div>
+	<button class="tablink" onclick="openPage('Employment History', this, 'blue')" id="defaultOpen">Employment History</button>
+	<button class="tablink" onclick="openPage('Education', this, 'blue')" >Education</button>
+	<button class="tablink" onclick="openPage('Notable Achievements', this, 'blue')">Notable Achievements</button>
+	<button class="tablink" onclick="openPage('Languages', this, 'blue')">Languages</button>
+	<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+	</div>
+
+	<div id="Employment History" class="tabcontent">
+	<h2>Employment History</h2>
+  	<h3>Full Stack Developer</h3>
+  		<br>
+        <div class="timeline">2020 - Present</div>
+                
+        <div id="hideaway1" style="display:none;">Learning to code using HTML, CSS, JavaScript and Python. Along with the following:
+             <ul>
+                <li>Life Skills</li>
+                <li>Social Skills</li>
+                <li>Enjoying Life</li>
+            </ul>
+        </div>
+
+        <a href="javascript:;" onClick="document.getElementById('hideaway1').style.display='block';"><img SRC="open.jpg" BORDER="0" height="20" class="rounded-corners2"></a>
+        <a href="javascript:;" onClick="document.getElementById('hideaway1').style.display='none';"><img SRC="close.jpg" BORDER="0" height="20"class="rounded-corners2"></a>
+
+    <h3>Petroleum Reservoir Engineering Consultant</h3>
+        <br>
+        <div class="timeline">1999 - Present</div>
+                
+        <div id="hideaway2" style="display:none;">Working in the Oil and Gas identifying value in Assets and building models to forecast production profiles and reserves.
+        <br>
+        Also helping clients add value to their Assets
+            <ul>
+                <li>Reservoir Simulation Models</li>
+                <li>Production Optimisation</li>
+            </ul>
+        </div>    
+
+        <a href="javascript:;" onClick="document.getElementById('hideaway2').style.display='block';"><img SRC="open.jpg" BORDER="0" height="20"class="rounded-corners2"></a>
+        <a href="javascript:;" onClick="document.getElementById('hideaway2').style.display='none';"><img SRC="close.jpg" BORDER="0" height="20"class="rounded-corners2"></a>
+
+    <h3>EOR Consultants Ltd - Senior Consultant and Director</h3>
+        <br>
+        <div class="timeline">2015 - Present</div>
+
+        <div id="hideaway3" style="display:none;">As the head of EOR Consultants I liase with clients to understand their needs and build solutions for them.
+            <ul>
+                <li>Marketing</li>
+                <li>Consulting</li>
+                <li>Reservoir Engineering</li>
+            </ul>
+        </div> 
+
+        <a href="javascript:;" onClick="document.getElementById('hideaway3').style.display='block';"><img SRC="open.jpg" BORDER="0" height="20" class="rounded-corners2"></a>
+        <a href="javascript:;" onClick="document.getElementById('hideaway3').style.display='none';"><img SRC="close.jpg" BORDER="0" height="20" class="rounded-corners2"></a>
 
 
-            </div>
+  	</div>	
 
-            <p>
-            <h2>&nbsp;Summary</h2>
-            <br>
-            &nbsp; Experienced Oil and Gas Professional Venturing into the World of Programming and I am liking it!<br>
-            </p>
-            <br><br>
-
-<div>
-<button class="tablink" onclick="openPage('Employment History', this, 'blue')" id="defaultOpen">Employment History</button>
-<button class="tablink" onclick="openPage('Education', this, 'blue')" >Education</button>
-<button class="tablink" onclick="openPage('Notable Achievements', this, 'blue')">Notable Achievements</button>
-<button class="tablink" onclick="openPage('Languages', this, 'blue')">Languages</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-</div>
-
-<div id="Employment History" class="tabcontent">
-  <h2>Employment History</h2>
-  <h3>Full Stack Developer</h3>
-                <br>
-                <div class="timeline">2020 - Present</div>
-                <div id="hideaway1" style="display:none;">Learning to code using HTML, CSS, JavaScript and Python. Along with the following:
-                    <ul>
-                        <li>Life Skills</li>
-                        <li>Social Skills</li>
-                        <li>Enjoying Life</li>
-                    </ul>
-                </div>
-                <a href="javascript:;" onClick="document.getElementById('hideaway1').style.display='block';"><img SRC="open.jpg" BORDER="0" height="20" class="rounded-corners2"></a>
-                <a href="javascript:;" onClick="document.getElementById('hideaway1').style.display='none';"><img SRC="close.jpg" BORDER="0" height="20"class="rounded-corners2"></a>
-
-                <h3>Petroleum Reservoir Engineering Consultant</h3>
-                <br>
-                <div class="timeline">1999 - Present</div>
-                <div id="hideaway2" style="display:none;">Working in the Oil and Gas identifying value in Assets and building models to forecast production profiles and reserves.
-                    <br>
-                    Also helping clients add value to their Assets
-                <ul>
-                    <li>Reservoir Simulation Models</li>
-                    <li>Production Optimisation</li>
-                </ul>
-                </div>
-
-                <a href="javascript:;" onClick="document.getElementById('hideaway2').style.display='block';"><img SRC="open.jpg" BORDER="0" height="20"class="rounded-corners2"></a>
-                <a href="javascript:;" onClick="document.getElementById('hideaway2').style.display='none';"><img SRC="close.jpg" BORDER="0" height="20"class="rounded-corners2"></a>
-
-
-                <h3>EOR Consultants Ltd - Senior Consultant and Director</h3>
-                <br>
-                <div class="timeline">2015 - Present</div>
-                <div id="hideaway3" style="display:none;">As the head of EOR Consultants I liase with clients to understand their needs and build solutions for them.
-                <ul>
-                    <li>Marketing</li>
-                    <li>Consulting</li>
-                    <li>Reservoir Engineering</li>
-                </ul>
-            </div>
-            <div>
-            <a href="javascript:;" onClick="document.getElementById('hideaway3').style.display='block';"><img SRC="open.jpg" BORDER="0" height="20" class="rounded-corners2"></a>
-            <a href="javascript:;" onClick="document.getElementById('hideaway3').style.display='none';"><img SRC="close.jpg" BORDER="0" height="20" class="rounded-corners2"></a>
-            </div>
-            <br>
-</div>
-
-
-<div id="Education" class="tabcontent">
-  <h2>Education</h2>
+  	<div id="Education" class="tabcontent">
+  	
+  	<h2>Education</h2>
 
     <div class="timeline">1995 - 1999</div>
     <h3>BSc. Engineering</h3>
-    <div>Middle East Technical University</div>
-    <div>Ankara, Turkey</div>
+    	<div>Middle East Technical University</div>
+    	<div>Ankara, Turkey</div>
+
     <div class="timeline">2020 - 2021</div>
-    <h3>Front End Developer Program</h3>
-    <div>EvolveU</div>
-    <div>Calgary, AB, Canada</div>
+    	<h3>Front End Developer Program</h3>
+    	<div>EvolveU</div>
+    	<div>Calgary, AB, Canada</div>
 
-</div>
+	</div>
 
-<div id="Notable Achievements" class="tabcontent">
+	<div id="Notable Achievements" class="tabcontent">
 
-  <h2>Notable Achievements</h2>
-                <ul>
-                    <li>3rd Place in Category “Asset Team & Taskforce members” as part of Pakistan Modeling Team (Sawan),
-                        <br>OMV Exploration & Production Days,
-                        Annual Achievement Awards,
-                        Vienna, Austria,
-                        December 2007</li>
-                    <li>Star Award 2003 “In recognition of exceptional efforts & accomplishments” LMK Resources,
-                         October 19, 2003</li>
-                </ul>
-</div>
+  		<h2>Notable Achievements</h2>
+            <ul>
+            <li>3rd Place in Category “Asset Team & Taskforce members” as part of Pakistan Modeling Team (Sawan),
+            	<br>OMV Exploration & Production Days, Annual Achievement Awards, Vienna, Austria, December 2007</li>
+            <li>Star Award 2003 “In recognition of exceptional efforts & accomplishments” LMK Resources, October 19, 2003</li>
+            </ul>
+	</div>
 
-<div id="Languages" class="tabcontent">
+	<div id="Languages" class="tabcontent">
 
         <h3>Languages</h3>
         <ul>
@@ -135,36 +138,33 @@
             <li>Arabic</li>
         </ul>
 
-</div>
+	</div>
 
-<div id="Contact" class="tabcontent">
-    
-   
+	<div id="Contact" class="tabcontent">
+		<h3>Contact</h3>
+    	<p>Contact me for a chat or a cup of coffee</p>
 
-    <h3>Contact</h3>
-    <p>Contact me for a chat or a cup of coffee</p>
+    	<div class="row">
 
-    <div class="row">
         <div class="column">
         <a href="mailto:info@example.com"><img src="email.png" width="75" class="rounded-corners2"></a>
         </div>
+
         <div class="column">
         <a href="https://www.linkedin.com/in/amir-riaz-ahmed-p-eng-a7567b9/"><img src="link.png" width="50"></a>
         </div>
+
         <div class="column">
         <a href="https://twitter.com/Amir_CodeMaster"><img src="bird.png" width="50" class="rounded-corners2"></a>
         </div>
+
         <div class="column">
         <a href="https://github.com/amirriazahmed"><img src="cat.gif" width="50" ></a>
         </div>
-    </div>
-<div>
 
-    
-
-</div>
-</body>
+    	</div>
+	</div>	
 
 <script src="index.js"></script>
-
+</body>
 </html>
